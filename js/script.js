@@ -20,19 +20,19 @@ function time() {
         let seconds = Math.floor( (distance % (1000 * 60)) / 1000 )
 
         if ( distance > 0 ) {
-            if ( days > 0 ) {
+            if ( days >= 0 ) {
                 document.getElementById('days').innerHTML = `${days}d`
             } else {
                 document.getElementById('days').classList.add('hidden')
             }
 
-            if ( hours > 0 ) {
+            if ( hours >= 0 ) {
                 document.getElementById('hours').innerHTML = `${hours}h`
             } else {
                 document.getElementById('hours').classList.add('hidden')
             }
 
-            if ( minutes > 0 ) {
+            if ( minutes >= 0 ) {
                 document.getElementById('minutes').innerHTML = `${minutes}m`
             } else {
                 document.getElementById('minutes').classList.add('hidden')
