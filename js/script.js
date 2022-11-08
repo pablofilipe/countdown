@@ -1,5 +1,4 @@
-let countDownDate = new Date('Nov 8, 2022 18:00:00').getTime()
-//let countDownDate = new Date('Oct 19, 2022 16:34:00').getTime()
+let countDownDate = new Date('Nov 18, 2022 10:00:00').getTime()
 
 function start() {
     treatDisplay( 'days' )
